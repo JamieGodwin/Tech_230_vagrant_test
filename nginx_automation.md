@@ -1,7 +1,8 @@
 # How to automate nginx
 - In the same folder as the vagrant will be, make a file called provision.sh
 - In this file, add the following code:
-``` #!/bin/bash
+``` 
+#!/bin/bash
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
