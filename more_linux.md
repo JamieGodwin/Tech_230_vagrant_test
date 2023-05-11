@@ -1,0 +1,19 @@
+# More linux commands 
+- sudo nano example.txt creates a file
+- tail -2 example.txt allows you to see the last 2 lines of the file
+- head allows you to see the start
+- sort example.txt sorts the file, priorotising numbers over alphabetical
+- nl example.txt adds numbers to the lines
+- wc example.txt gives the word, line and character count of the file
+- wc -l gives line count 
+- ls | head -3 gives the first three files 
+- ls | head -3 | tail -1 will give the second file
+- cat example.txt | grep hello   :This searches for all lines tht have "hello"
+- top  :Shows all running parts on the computer 
+- ps   :Shows all running parts from the user 
+- ps aux   :Shows a snapshot of the computer
+- sleep 120 &   :sleeps the terminal in the background for 120 seconds
+- sleep 120   :sleeps the terminal for 120 seconds
+- ps   :The number on the left is assigned to each running part
+- kill "number"   :stops the running part
+- kill -9 "number"   :more forcefully quits
