@@ -28,7 +28,24 @@ config.vm.synced_folder "app", "/home/vagrant/app"
 
 ## Installing npm
 - Do the code: npm install
-- Do the code: nom start
+- Do the code: npm start
 - Should recieve the message of the port number
 - To view the port, do "ip address:port number"
-!["final image"](image (6).png)
+
+
+
+# Install automation
+- Add the code we did in git bash to the provision file
+- Before npm, we need to do cd /home/vagrant/app to access the app contents in the VM.
+
+```
+sudo apt-get install nodejs -y
+sudo apt-get install python-software-properties
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install nodejs -y
+cd /home/vagrant/app
+npm install 
+npm start
+```
+
+![any name](name in the same folder)
