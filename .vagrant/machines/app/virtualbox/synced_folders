@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/app":{"guestpath":"/home/vagrant/app","hostpath":"C:/Users/alans/OneDrive/Desktop/Tech_230/app/Tech_230_multi_machine/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/alans/OneDrive/Desktop/Tech_230/app/Tech_230_multi_machine","disabled":false,"__vagrantfile":true}}}
