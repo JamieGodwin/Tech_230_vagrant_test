@@ -2,10 +2,11 @@
 - It's used to be able to uniquely identify a connection endpoint, and to direct data to  specific service.
 ## What is a reverse proxy
 - It is a gateway between the users and the servers. It revieves requests from the users, and directs them to the origin main. 
+![](Screenshot.png)
 # Add reverse proxy 
 - Needs to be done in app terminal while the app is running
 
-##Installing node.js
+## Installing node.js
 - type ` cd ~ `
 - Then ` curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh `
 - ` sudo bash nodesource_setup.sh `
@@ -36,9 +37,13 @@ location /posts {
             proxy_set_header Host $host;
             proxy_cache_bypass $http_upgrade;
     } 
+- It should look like this:
+- ![](image(8).png)
 - The second {} is for the second VM
 - Note: The indentation needs to be perfect
 - To check, type ` sudo nginx -t `
+#
 - Type ` sudo systemctl restart nginx `
 - Then ` node app.js `
 - Check: ` 192.168.10.100/posts ` to see if it worked
+
